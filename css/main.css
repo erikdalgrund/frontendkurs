@@ -1,0 +1,51 @@
+* {
+     border: solid 1px black; 
+}
+
+body { 
+    margin:  auto; max-width: 970px;
+    
+} 
+.header {
+    height: 800px;
+    width: 100%;
+    background-image: url(/bilder/header.png.png);
+    background-repeat: no-repeat; 
+    background-position-x: center;
+    
+} 
+.img {
+    position: relative; 
+    top: 60px;
+    left: 50%;
+} 
+.text {
+    position: relative;
+    top: 550px;
+    left: 60%;
+}
+#text3 {
+    position: relative; 
+    top: 600px; 
+    margin-left:  25%;
+}
+#text4 {
+    position: relative; 
+    top: 625px; 
+    margin-left: 44%;
+} 
+.middle {
+    display: flex;
+    height: 800px;
+    width: 100%;
+} 
+.text5 {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 612px;
+    height: 100%;
+
+} 
+.mobil {
+    justify-self: right;
+}
